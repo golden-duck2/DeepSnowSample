@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SnowRender_SS
-  m_Shader: {fileID: 4800000, guid: 1b6ce8806e46a9a4b99e77b38907e3b9, type: 3}
+  m_Shader: {fileID: 4800000, guid: 6d81b44ba4374a343a49f7c37382a103, type: 3}
   m_ShaderKeywords: _EMISSION _REVERS_U_ON
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -98,7 +98,7 @@ Material:
     - _FlattenBotNM: 0.99
     - _FlattenNM: 0.806
     - _FlattenTopNM: 0.8
-    - _Gloss: 0
+    - _Gloss: 0.47
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -111,9 +111,10 @@ Material:
     - _SnowMaxHeight: 0.001
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Tessellation: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - _insensity: -1
+    - _insensity: -0.65
     - _maxDist: 1
     - _minDist: 1
     - _node_7863: 0

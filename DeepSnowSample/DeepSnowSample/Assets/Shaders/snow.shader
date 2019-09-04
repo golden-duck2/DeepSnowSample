@@ -1,7 +1,7 @@
 // Shader created with Shader Forge v1.38 
 // Shader Forge (c) Freya Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:3,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:True,hqlp:False,rprd:True,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2865,x:32719,y:32712,varname:node_2865,prsc:2|diff-6343-OUT,spec-358-OUT,gloss-1813-OUT,normal-5964-RGB,voffset-2648-OUT;n:type:ShaderForge.SFN_Multiply,id:6343,x:32114,y:32712,varname:node_6343,prsc:2|A-7736-RGB,B-6665-RGB;n:type:ShaderForge.SFN_Color,id:6665,x:31921,y:32805,ptovrint:False,ptlb:Color,ptin:_Color,varname:_Color,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:0.5019608,c2:0.5019608,c3:0.5019608,c4:1;n:type:ShaderForge.SFN_Tex2d,id:7736,x:31921,y:32620,ptovrint:True,ptlb:Base Color,ptin:_MainTex,varname:_MainTex,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:5964,x:32407,y:32978,ptovrint:True,ptlb:Normal Map,ptin:_BumpMap,varname:_BumpMap,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:3,isnm:True;n:type:ShaderForge.SFN_Slider,id:358,x:32250,y:32780,ptovrint:False,ptlb:Metallic,ptin:_Metallic,varname:node_358,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:1;n:type:ShaderForge.SFN_Slider,id:1813,x:32250,y:32882,ptovrint:False,ptlb:Gloss,ptin:_Gloss,varname:_Metallic_copy,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.8,max:1;n:type:ShaderForge.SFN_Tex2d,id:4900,x:31826,y:32390,ptovrint:False,ptlb:snowHeight,ptin:_snowHeight,varname:node_4900,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:28c7aad1372ff114b90d330f8a2dd938,ntxv:0,isnm:False|UVIN-8048-OUT;n:type:ShaderForge.SFN_Multiply,id:2648,x:32350,y:32300,varname:node_2648,prsc:2|A-4900-R,B-9847-OUT,C-7101-OUT;n:type:ShaderForge.SFN_Slider,id:9847,x:31786,y:32273,ptovrint:False,ptlb:insensity,ptin:_insensity,varname:node_9847,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:-1,cur:-1,max:1;n:type:ShaderForge.SFN_Vector3,id:7101,x:32086,y:32431,varname:node_7101,prsc:2,v1:0,v2:1,v3:0;n:type:ShaderForge.SFN_TexCoord,id:4176,x:30883,y:31992,varname:node_4176,prsc:2,uv:0,uaff:False;n:type:ShaderForge.SFN_Append,id:8048,x:31485,y:32261,varname:node_8048,prsc:2|A-767-OUT,B-2100-OUT;n:type:ShaderForge.SFN_Multiply,id:1494,x:33318,y:33570,varname:node_1494,prsc:2;n:type:ShaderForge.SFN_OneMinus,id:6011,x:31098,y:31895,varname:node_6011,prsc:2|IN-4176-U;n:type:ShaderForge.SFN_SwitchProperty,id:767,x:31279,y:32012,ptovrint:False,ptlb:revers_U,ptin:_revers_U,varname:node_767,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,on:False|A-4176-U,B-6011-OUT;n:type:ShaderForge.SFN_OneMinus,id:9420,x:31109,y:32224,varname:node_9420,prsc:2|IN-4176-V;n:type:ShaderForge.SFN_SwitchProperty,id:2100,x:31279,y:32174,ptovrint:False,ptlb:revers_V,ptin:_revers_V,varname:_revers_U_copy,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,on:False|A-4176-V,B-9420-OUT;proporder:5964-6665-7736-358-1813-4900-9847-767-2100;pass:END;sub:END;*/
+/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:3,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:True,hqlp:False,rprd:True,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2865,x:32719,y:32712,varname:node_2865,prsc:2|diff-6343-OUT,spec-358-OUT,gloss-1813-OUT,normal-5964-RGB,voffset-2648-OUT,tess-6866-OUT;n:type:ShaderForge.SFN_Multiply,id:6343,x:32114,y:32712,varname:node_6343,prsc:2|A-7736-RGB,B-6665-RGB;n:type:ShaderForge.SFN_Color,id:6665,x:31921,y:32805,ptovrint:False,ptlb:Color,ptin:_Color,varname:_Color,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:0.5019608,c2:0.5019608,c3:0.5019608,c4:1;n:type:ShaderForge.SFN_Tex2d,id:7736,x:31921,y:32620,ptovrint:True,ptlb:Base Color,ptin:_MainTex,varname:_MainTex,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:5964,x:32407,y:32978,ptovrint:True,ptlb:Normal Map,ptin:_BumpMap,varname:_BumpMap,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:3,isnm:True;n:type:ShaderForge.SFN_Slider,id:358,x:32250,y:32780,ptovrint:False,ptlb:Metallic,ptin:_Metallic,varname:node_358,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:1;n:type:ShaderForge.SFN_Slider,id:1813,x:32250,y:32882,ptovrint:False,ptlb:Gloss,ptin:_Gloss,varname:_Metallic_copy,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.8,max:1;n:type:ShaderForge.SFN_Tex2d,id:4900,x:31826,y:32390,ptovrint:False,ptlb:snowHeight,ptin:_snowHeight,varname:node_4900,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:28c7aad1372ff114b90d330f8a2dd938,ntxv:0,isnm:False|UVIN-8048-OUT;n:type:ShaderForge.SFN_Multiply,id:2648,x:32350,y:32300,varname:node_2648,prsc:2|A-4900-R,B-9847-OUT,C-7101-OUT;n:type:ShaderForge.SFN_Slider,id:9847,x:31786,y:32273,ptovrint:False,ptlb:insensity,ptin:_insensity,varname:node_9847,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:-1,cur:-1,max:1;n:type:ShaderForge.SFN_Vector3,id:7101,x:32086,y:32431,varname:node_7101,prsc:2,v1:0,v2:1,v3:0;n:type:ShaderForge.SFN_TexCoord,id:4176,x:30883,y:31992,varname:node_4176,prsc:2,uv:0,uaff:False;n:type:ShaderForge.SFN_Append,id:8048,x:31485,y:32261,varname:node_8048,prsc:2|A-767-OUT,B-2100-OUT;n:type:ShaderForge.SFN_Multiply,id:1494,x:33318,y:33570,varname:node_1494,prsc:2;n:type:ShaderForge.SFN_OneMinus,id:6011,x:31098,y:31895,varname:node_6011,prsc:2|IN-4176-U;n:type:ShaderForge.SFN_SwitchProperty,id:767,x:31279,y:32012,ptovrint:False,ptlb:revers_U,ptin:_revers_U,varname:node_767,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,on:False|A-4176-U,B-6011-OUT;n:type:ShaderForge.SFN_OneMinus,id:9420,x:31109,y:32224,varname:node_9420,prsc:2|IN-4176-V;n:type:ShaderForge.SFN_SwitchProperty,id:2100,x:31279,y:32174,ptovrint:False,ptlb:revers_V,ptin:_revers_V,varname:_revers_U_copy,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,on:False|A-4176-V,B-9420-OUT;n:type:ShaderForge.SFN_Slider,id:6866,x:32250,y:33179,ptovrint:False,ptlb:Tessellation,ptin:_Tessellation,varname:node_6866,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:1,cur:1,max:10;proporder:5964-6665-7736-358-1813-4900-9847-767-2100-6866;pass:END;sub:END;*/
 
 Shader "Shader Forge/snow" {
     Properties {
@@ -11,9 +11,10 @@ Shader "Shader Forge/snow" {
         _Metallic ("Metallic", Range(0, 1)) = 0
         _Gloss ("Gloss", Range(0, 1)) = 0.8
         _snowHeight ("snowHeight", 2D) = "white" {}
-        _insensity ("insensity", Range(-1, 1)) = -1
+        _insensity ("insensity", Range(-10, 10)) = -1
         [MaterialToggle] _revers_U ("revers_U", Float ) = 0
         [MaterialToggle] _revers_V ("revers_V", Float ) = 0
+        _Tessellation ("Tessellation", Range(1, 10)) = 1
     }
     SubShader {
         Tags {
@@ -27,13 +28,16 @@ Shader "Shader Forge/snow" {
             
             
             CGPROGRAM
-            #pragma vertex vert
+            #pragma hull hull
+            #pragma domain domain
+            #pragma vertex tessvert
             #pragma fragment frag
             #define SHOULD_SAMPLE_SH ( defined (LIGHTMAP_OFF) && defined(DYNAMICLIGHTMAP_OFF) )
             #define _GLOSSYENV 1
             #include "UnityCG.cginc"
             #include "AutoLight.cginc"
             #include "Lighting.cginc"
+            #include "Tessellation.cginc"
             #include "UnityPBSLighting.cginc"
             #include "UnityStandardBRDF.cginc"
             #pragma multi_compile_fwdbase_fullshadows
@@ -42,7 +46,7 @@ Shader "Shader Forge/snow" {
             #pragma multi_compile DYNAMICLIGHTMAP_OFF DYNAMICLIGHTMAP_ON
             #pragma multi_compile_fog
             #pragma only_renderers d3d9 d3d11 glcore gles 
-            #pragma target 3.0
+            #pragma target 5.0
             uniform float4 _Color;
             uniform sampler2D _MainTex; uniform float4 _MainTex_ST;
             uniform sampler2D _BumpMap; uniform float4 _BumpMap_ST;
@@ -52,6 +56,7 @@ Shader "Shader Forge/snow" {
             uniform float _insensity;
             uniform fixed _revers_U;
             uniform fixed _revers_V;
+            uniform float _Tessellation;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
@@ -93,8 +98,7 @@ Shader "Shader Forge/snow" {
                 o.bitangentDir = normalize(cross(o.normalDir, o.tangentDir) * v.tangent.w);
                 float2 node_8048 = float2(lerp( o.uv0.r, (1.0 - o.uv0.r), _revers_U ),lerp( o.uv0.g, (1.0 - o.uv0.g), _revers_V ));
                 float4 _snowHeight_var = tex2Dlod(_snowHeight,float4(TRANSFORM_TEX(node_8048, _snowHeight),0.0,0));
-                float3 node_2648 = (_snowHeight_var.r*_insensity*float3(0,1,0));
-                v.vertex.xyz += node_2648;
+                v.vertex.xyz += (_snowHeight_var.r*_insensity*float3(0,1,0));
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
                 float3 lightColor = _LightColor0.rgb;
                 o.pos = UnityObjectToClipPos( v.vertex );
@@ -102,6 +106,72 @@ Shader "Shader Forge/snow" {
                 TRANSFER_VERTEX_TO_FRAGMENT(o)
                 return o;
             }
+            #ifdef UNITY_CAN_COMPILE_TESSELLATION
+                struct TessVertex {
+                    float4 vertex : INTERNALTESSPOS;
+                    float3 normal : NORMAL;
+                    float4 tangent : TANGENT;
+                    float2 texcoord0 : TEXCOORD0;
+                    float2 texcoord1 : TEXCOORD1;
+                    float2 texcoord2 : TEXCOORD2;
+                };
+                struct OutputPatchConstant {
+                    float edge[3]         : SV_TessFactor;
+                    float inside          : SV_InsideTessFactor;
+                    float3 vTangent[4]    : TANGENT;
+                    float2 vUV[4]         : TEXCOORD;
+                    float3 vTanUCorner[4] : TANUCORNER;
+                    float3 vTanVCorner[4] : TANVCORNER;
+                    float4 vCWts          : TANWEIGHTS;
+                };
+                TessVertex tessvert (VertexInput v) {
+                    TessVertex o;
+                    o.vertex = v.vertex;
+                    o.normal = v.normal;
+                    o.tangent = v.tangent;
+                    o.texcoord0 = v.texcoord0;
+                    o.texcoord1 = v.texcoord1;
+                    o.texcoord2 = v.texcoord2;
+                    return o;
+                }
+                float Tessellation(TessVertex v){
+                    return _Tessellation;
+                }
+                float4 Tessellation(TessVertex v, TessVertex v1, TessVertex v2){
+                    float tv = Tessellation(v);
+                    float tv1 = Tessellation(v1);
+                    float tv2 = Tessellation(v2);
+                    return float4( tv1+tv2, tv2+tv, tv+tv1, tv+tv1+tv2 ) / float4(2,2,2,3);
+                }
+                OutputPatchConstant hullconst (InputPatch<TessVertex,3> v) {
+                    OutputPatchConstant o = (OutputPatchConstant)0;
+                    float4 ts = Tessellation( v[0], v[1], v[2] );
+                    o.edge[0] = ts.x;
+                    o.edge[1] = ts.y;
+                    o.edge[2] = ts.z;
+                    o.inside = ts.w;
+                    return o;
+                }
+                [domain("tri")]
+                [partitioning("fractional_odd")]
+                [outputtopology("triangle_cw")]
+                [patchconstantfunc("hullconst")]
+                [outputcontrolpoints(3)]
+                TessVertex hull (InputPatch<TessVertex,3> v, uint id : SV_OutputControlPointID) {
+                    return v[id];
+                }
+                [domain("tri")]
+                VertexOutput domain (OutputPatchConstant tessFactors, const OutputPatch<TessVertex,3> vi, float3 bary : SV_DomainLocation) {
+                    VertexInput v = (VertexInput)0;
+                    v.vertex = vi[0].vertex*bary.x + vi[1].vertex*bary.y + vi[2].vertex*bary.z;
+                    v.normal = vi[0].normal*bary.x + vi[1].normal*bary.y + vi[2].normal*bary.z;
+                    v.tangent = vi[0].tangent*bary.x + vi[1].tangent*bary.y + vi[2].tangent*bary.z;
+                    v.texcoord0 = vi[0].texcoord0*bary.x + vi[1].texcoord0*bary.y + vi[2].texcoord0*bary.z;
+                    v.texcoord1 = vi[0].texcoord1*bary.x + vi[1].texcoord1*bary.y + vi[2].texcoord1*bary.z;
+                    VertexOutput o = vert(v);
+                    return o;
+                }
+            #endif
             float4 frag(VertexOutput i) : COLOR {
                 i.normalDir = normalize(i.normalDir);
                 float3x3 tangentTransform = float3x3( i.tangentDir, i.bitangentDir, i.normalDir);
@@ -224,13 +294,16 @@ Shader "Shader Forge/snow" {
             
             
             CGPROGRAM
-            #pragma vertex vert
+            #pragma hull hull
+            #pragma domain domain
+            #pragma vertex tessvert
             #pragma fragment frag
             #define SHOULD_SAMPLE_SH ( defined (LIGHTMAP_OFF) && defined(DYNAMICLIGHTMAP_OFF) )
             #define _GLOSSYENV 1
             #include "UnityCG.cginc"
             #include "AutoLight.cginc"
             #include "Lighting.cginc"
+            #include "Tessellation.cginc"
             #include "UnityPBSLighting.cginc"
             #include "UnityStandardBRDF.cginc"
             #pragma multi_compile_fwdadd_fullshadows
@@ -239,7 +312,7 @@ Shader "Shader Forge/snow" {
             #pragma multi_compile DYNAMICLIGHTMAP_OFF DYNAMICLIGHTMAP_ON
             #pragma multi_compile_fog
             #pragma only_renderers d3d9 d3d11 glcore gles 
-            #pragma target 3.0
+            #pragma target 5.0
             uniform float4 _Color;
             uniform sampler2D _MainTex; uniform float4 _MainTex_ST;
             uniform sampler2D _BumpMap; uniform float4 _BumpMap_ST;
@@ -249,6 +322,7 @@ Shader "Shader Forge/snow" {
             uniform float _insensity;
             uniform fixed _revers_U;
             uniform fixed _revers_V;
+            uniform float _Tessellation;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
@@ -279,8 +353,7 @@ Shader "Shader Forge/snow" {
                 o.bitangentDir = normalize(cross(o.normalDir, o.tangentDir) * v.tangent.w);
                 float2 node_8048 = float2(lerp( o.uv0.r, (1.0 - o.uv0.r), _revers_U ),lerp( o.uv0.g, (1.0 - o.uv0.g), _revers_V ));
                 float4 _snowHeight_var = tex2Dlod(_snowHeight,float4(TRANSFORM_TEX(node_8048, _snowHeight),0.0,0));
-                float3 node_2648 = (_snowHeight_var.r*_insensity*float3(0,1,0));
-                v.vertex.xyz += node_2648;
+                v.vertex.xyz += (_snowHeight_var.r*_insensity*float3(0,1,0));
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
                 float3 lightColor = _LightColor0.rgb;
                 o.pos = UnityObjectToClipPos( v.vertex );
@@ -288,6 +361,72 @@ Shader "Shader Forge/snow" {
                 TRANSFER_VERTEX_TO_FRAGMENT(o)
                 return o;
             }
+            #ifdef UNITY_CAN_COMPILE_TESSELLATION
+                struct TessVertex {
+                    float4 vertex : INTERNALTESSPOS;
+                    float3 normal : NORMAL;
+                    float4 tangent : TANGENT;
+                    float2 texcoord0 : TEXCOORD0;
+                    float2 texcoord1 : TEXCOORD1;
+                    float2 texcoord2 : TEXCOORD2;
+                };
+                struct OutputPatchConstant {
+                    float edge[3]         : SV_TessFactor;
+                    float inside          : SV_InsideTessFactor;
+                    float3 vTangent[4]    : TANGENT;
+                    float2 vUV[4]         : TEXCOORD;
+                    float3 vTanUCorner[4] : TANUCORNER;
+                    float3 vTanVCorner[4] : TANVCORNER;
+                    float4 vCWts          : TANWEIGHTS;
+                };
+                TessVertex tessvert (VertexInput v) {
+                    TessVertex o;
+                    o.vertex = v.vertex;
+                    o.normal = v.normal;
+                    o.tangent = v.tangent;
+                    o.texcoord0 = v.texcoord0;
+                    o.texcoord1 = v.texcoord1;
+                    o.texcoord2 = v.texcoord2;
+                    return o;
+                }
+                float Tessellation(TessVertex v){
+                    return _Tessellation;
+                }
+                float4 Tessellation(TessVertex v, TessVertex v1, TessVertex v2){
+                    float tv = Tessellation(v);
+                    float tv1 = Tessellation(v1);
+                    float tv2 = Tessellation(v2);
+                    return float4( tv1+tv2, tv2+tv, tv+tv1, tv+tv1+tv2 ) / float4(2,2,2,3);
+                }
+                OutputPatchConstant hullconst (InputPatch<TessVertex,3> v) {
+                    OutputPatchConstant o = (OutputPatchConstant)0;
+                    float4 ts = Tessellation( v[0], v[1], v[2] );
+                    o.edge[0] = ts.x;
+                    o.edge[1] = ts.y;
+                    o.edge[2] = ts.z;
+                    o.inside = ts.w;
+                    return o;
+                }
+                [domain("tri")]
+                [partitioning("fractional_odd")]
+                [outputtopology("triangle_cw")]
+                [patchconstantfunc("hullconst")]
+                [outputcontrolpoints(3)]
+                TessVertex hull (InputPatch<TessVertex,3> v, uint id : SV_OutputControlPointID) {
+                    return v[id];
+                }
+                [domain("tri")]
+                VertexOutput domain (OutputPatchConstant tessFactors, const OutputPatch<TessVertex,3> vi, float3 bary : SV_DomainLocation) {
+                    VertexInput v = (VertexInput)0;
+                    v.vertex = vi[0].vertex*bary.x + vi[1].vertex*bary.y + vi[2].vertex*bary.z;
+                    v.normal = vi[0].normal*bary.x + vi[1].normal*bary.y + vi[2].normal*bary.z;
+                    v.tangent = vi[0].tangent*bary.x + vi[1].tangent*bary.y + vi[2].tangent*bary.z;
+                    v.texcoord0 = vi[0].texcoord0*bary.x + vi[1].texcoord0*bary.y + vi[2].texcoord0*bary.z;
+                    v.texcoord1 = vi[0].texcoord1*bary.x + vi[1].texcoord1*bary.y + vi[2].texcoord1*bary.z;
+                    VertexOutput o = vert(v);
+                    return o;
+                }
+            #endif
             float4 frag(VertexOutput i) : COLOR {
                 i.normalDir = normalize(i.normalDir);
                 float3x3 tangentTransform = float3x3( i.tangentDir, i.bitangentDir, i.normalDir);
@@ -357,12 +496,15 @@ Shader "Shader Forge/snow" {
             Cull Back
             
             CGPROGRAM
-            #pragma vertex vert
+            #pragma hull hull
+            #pragma domain domain
+            #pragma vertex tessvert
             #pragma fragment frag
             #define SHOULD_SAMPLE_SH ( defined (LIGHTMAP_OFF) && defined(DYNAMICLIGHTMAP_OFF) )
             #define _GLOSSYENV 1
             #include "UnityCG.cginc"
             #include "Lighting.cginc"
+            #include "Tessellation.cginc"
             #include "UnityPBSLighting.cginc"
             #include "UnityStandardBRDF.cginc"
             #pragma fragmentoption ARB_precision_hint_fastest
@@ -372,13 +514,16 @@ Shader "Shader Forge/snow" {
             #pragma multi_compile DYNAMICLIGHTMAP_OFF DYNAMICLIGHTMAP_ON
             #pragma multi_compile_fog
             #pragma only_renderers d3d9 d3d11 glcore gles 
-            #pragma target 3.0
+            #pragma target 5.0
             uniform sampler2D _snowHeight; uniform float4 _snowHeight_ST;
             uniform float _insensity;
             uniform fixed _revers_U;
             uniform fixed _revers_V;
+            uniform float _Tessellation;
             struct VertexInput {
                 float4 vertex : POSITION;
+                float3 normal : NORMAL;
+                float4 tangent : TANGENT;
                 float2 texcoord0 : TEXCOORD0;
                 float2 texcoord1 : TEXCOORD1;
                 float2 texcoord2 : TEXCOORD2;
@@ -397,13 +542,78 @@ Shader "Shader Forge/snow" {
                 o.uv2 = v.texcoord2;
                 float2 node_8048 = float2(lerp( o.uv0.r, (1.0 - o.uv0.r), _revers_U ),lerp( o.uv0.g, (1.0 - o.uv0.g), _revers_V ));
                 float4 _snowHeight_var = tex2Dlod(_snowHeight,float4(TRANSFORM_TEX(node_8048, _snowHeight),0.0,0));
-                float3 node_2648 = (_snowHeight_var.r*_insensity*float3(0,1,0));
-                v.vertex.xyz += node_2648;
+                v.vertex.xyz += (_snowHeight_var.r*_insensity*float3(0,1,0));
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
                 o.pos = UnityObjectToClipPos( v.vertex );
                 TRANSFER_SHADOW_CASTER(o)
                 return o;
             }
+            #ifdef UNITY_CAN_COMPILE_TESSELLATION
+                struct TessVertex {
+                    float4 vertex : INTERNALTESSPOS;
+                    float3 normal : NORMAL;
+                    float4 tangent : TANGENT;
+                    float2 texcoord0 : TEXCOORD0;
+                    float2 texcoord1 : TEXCOORD1;
+                    float2 texcoord2 : TEXCOORD2;
+                };
+                struct OutputPatchConstant {
+                    float edge[3]         : SV_TessFactor;
+                    float inside          : SV_InsideTessFactor;
+                    float3 vTangent[4]    : TANGENT;
+                    float2 vUV[4]         : TEXCOORD;
+                    float3 vTanUCorner[4] : TANUCORNER;
+                    float3 vTanVCorner[4] : TANVCORNER;
+                    float4 vCWts          : TANWEIGHTS;
+                };
+                TessVertex tessvert (VertexInput v) {
+                    TessVertex o;
+                    o.vertex = v.vertex;
+                    o.normal = v.normal;
+                    o.tangent = v.tangent;
+                    o.texcoord0 = v.texcoord0;
+                    o.texcoord1 = v.texcoord1;
+                    o.texcoord2 = v.texcoord2;
+                    return o;
+                }
+                float Tessellation(TessVertex v){
+                    return _Tessellation;
+                }
+                float4 Tessellation(TessVertex v, TessVertex v1, TessVertex v2){
+                    float tv = Tessellation(v);
+                    float tv1 = Tessellation(v1);
+                    float tv2 = Tessellation(v2);
+                    return float4( tv1+tv2, tv2+tv, tv+tv1, tv+tv1+tv2 ) / float4(2,2,2,3);
+                }
+                OutputPatchConstant hullconst (InputPatch<TessVertex,3> v) {
+                    OutputPatchConstant o = (OutputPatchConstant)0;
+                    float4 ts = Tessellation( v[0], v[1], v[2] );
+                    o.edge[0] = ts.x;
+                    o.edge[1] = ts.y;
+                    o.edge[2] = ts.z;
+                    o.inside = ts.w;
+                    return o;
+                }
+                [domain("tri")]
+                [partitioning("fractional_odd")]
+                [outputtopology("triangle_cw")]
+                [patchconstantfunc("hullconst")]
+                [outputcontrolpoints(3)]
+                TessVertex hull (InputPatch<TessVertex,3> v, uint id : SV_OutputControlPointID) {
+                    return v[id];
+                }
+                [domain("tri")]
+                VertexOutput domain (OutputPatchConstant tessFactors, const OutputPatch<TessVertex,3> vi, float3 bary : SV_DomainLocation) {
+                    VertexInput v = (VertexInput)0;
+                    v.vertex = vi[0].vertex*bary.x + vi[1].vertex*bary.y + vi[2].vertex*bary.z;
+                    v.normal = vi[0].normal*bary.x + vi[1].normal*bary.y + vi[2].normal*bary.z;
+                    v.tangent = vi[0].tangent*bary.x + vi[1].tangent*bary.y + vi[2].tangent*bary.z;
+                    v.texcoord0 = vi[0].texcoord0*bary.x + vi[1].texcoord0*bary.y + vi[2].texcoord0*bary.z;
+                    v.texcoord1 = vi[0].texcoord1*bary.x + vi[1].texcoord1*bary.y + vi[2].texcoord1*bary.z;
+                    VertexOutput o = vert(v);
+                    return o;
+                }
+            #endif
             float4 frag(VertexOutput i) : COLOR {
                 float3 viewDirection = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);
                 SHADOW_CASTER_FRAGMENT(i)
@@ -418,12 +628,15 @@ Shader "Shader Forge/snow" {
             Cull Off
             
             CGPROGRAM
-            #pragma vertex vert
+            #pragma hull hull
+            #pragma domain domain
+            #pragma vertex tessvert
             #pragma fragment frag
             #define SHOULD_SAMPLE_SH ( defined (LIGHTMAP_OFF) && defined(DYNAMICLIGHTMAP_OFF) )
             #define _GLOSSYENV 1
             #include "UnityCG.cginc"
             #include "Lighting.cginc"
+            #include "Tessellation.cginc"
             #include "UnityPBSLighting.cginc"
             #include "UnityStandardBRDF.cginc"
             #include "UnityMetaPass.cginc"
@@ -434,7 +647,7 @@ Shader "Shader Forge/snow" {
             #pragma multi_compile DYNAMICLIGHTMAP_OFF DYNAMICLIGHTMAP_ON
             #pragma multi_compile_fog
             #pragma only_renderers d3d9 d3d11 glcore gles 
-            #pragma target 3.0
+            #pragma target 5.0
             uniform float4 _Color;
             uniform sampler2D _MainTex; uniform float4 _MainTex_ST;
             uniform float _Metallic;
@@ -443,8 +656,11 @@ Shader "Shader Forge/snow" {
             uniform float _insensity;
             uniform fixed _revers_U;
             uniform fixed _revers_V;
+            uniform float _Tessellation;
             struct VertexInput {
                 float4 vertex : POSITION;
+                float3 normal : NORMAL;
+                float4 tangent : TANGENT;
                 float2 texcoord0 : TEXCOORD0;
                 float2 texcoord1 : TEXCOORD1;
                 float2 texcoord2 : TEXCOORD2;
@@ -463,12 +679,77 @@ Shader "Shader Forge/snow" {
                 o.uv2 = v.texcoord2;
                 float2 node_8048 = float2(lerp( o.uv0.r, (1.0 - o.uv0.r), _revers_U ),lerp( o.uv0.g, (1.0 - o.uv0.g), _revers_V ));
                 float4 _snowHeight_var = tex2Dlod(_snowHeight,float4(TRANSFORM_TEX(node_8048, _snowHeight),0.0,0));
-                float3 node_2648 = (_snowHeight_var.r*_insensity*float3(0,1,0));
-                v.vertex.xyz += node_2648;
+                v.vertex.xyz += (_snowHeight_var.r*_insensity*float3(0,1,0));
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
                 o.pos = UnityMetaVertexPosition(v.vertex, v.texcoord1.xy, v.texcoord2.xy, unity_LightmapST, unity_DynamicLightmapST );
                 return o;
             }
+            #ifdef UNITY_CAN_COMPILE_TESSELLATION
+                struct TessVertex {
+                    float4 vertex : INTERNALTESSPOS;
+                    float3 normal : NORMAL;
+                    float4 tangent : TANGENT;
+                    float2 texcoord0 : TEXCOORD0;
+                    float2 texcoord1 : TEXCOORD1;
+                    float2 texcoord2 : TEXCOORD2;
+                };
+                struct OutputPatchConstant {
+                    float edge[3]         : SV_TessFactor;
+                    float inside          : SV_InsideTessFactor;
+                    float3 vTangent[4]    : TANGENT;
+                    float2 vUV[4]         : TEXCOORD;
+                    float3 vTanUCorner[4] : TANUCORNER;
+                    float3 vTanVCorner[4] : TANVCORNER;
+                    float4 vCWts          : TANWEIGHTS;
+                };
+                TessVertex tessvert (VertexInput v) {
+                    TessVertex o;
+                    o.vertex = v.vertex;
+                    o.normal = v.normal;
+                    o.tangent = v.tangent;
+                    o.texcoord0 = v.texcoord0;
+                    o.texcoord1 = v.texcoord1;
+                    o.texcoord2 = v.texcoord2;
+                    return o;
+                }
+                float Tessellation(TessVertex v){
+                    return _Tessellation;
+                }
+                float4 Tessellation(TessVertex v, TessVertex v1, TessVertex v2){
+                    float tv = Tessellation(v);
+                    float tv1 = Tessellation(v1);
+                    float tv2 = Tessellation(v2);
+                    return float4( tv1+tv2, tv2+tv, tv+tv1, tv+tv1+tv2 ) / float4(2,2,2,3);
+                }
+                OutputPatchConstant hullconst (InputPatch<TessVertex,3> v) {
+                    OutputPatchConstant o = (OutputPatchConstant)0;
+                    float4 ts = Tessellation( v[0], v[1], v[2] );
+                    o.edge[0] = ts.x;
+                    o.edge[1] = ts.y;
+                    o.edge[2] = ts.z;
+                    o.inside = ts.w;
+                    return o;
+                }
+                [domain("tri")]
+                [partitioning("fractional_odd")]
+                [outputtopology("triangle_cw")]
+                [patchconstantfunc("hullconst")]
+                [outputcontrolpoints(3)]
+                TessVertex hull (InputPatch<TessVertex,3> v, uint id : SV_OutputControlPointID) {
+                    return v[id];
+                }
+                [domain("tri")]
+                VertexOutput domain (OutputPatchConstant tessFactors, const OutputPatch<TessVertex,3> vi, float3 bary : SV_DomainLocation) {
+                    VertexInput v = (VertexInput)0;
+                    v.vertex = vi[0].vertex*bary.x + vi[1].vertex*bary.y + vi[2].vertex*bary.z;
+                    v.normal = vi[0].normal*bary.x + vi[1].normal*bary.y + vi[2].normal*bary.z;
+                    v.tangent = vi[0].tangent*bary.x + vi[1].tangent*bary.y + vi[2].tangent*bary.z;
+                    v.texcoord0 = vi[0].texcoord0*bary.x + vi[1].texcoord0*bary.y + vi[2].texcoord0*bary.z;
+                    v.texcoord1 = vi[0].texcoord1*bary.x + vi[1].texcoord1*bary.y + vi[2].texcoord1*bary.z;
+                    VertexOutput o = vert(v);
+                    return o;
+                }
+            #endif
             float4 frag(VertexOutput i) : SV_Target {
                 float3 viewDirection = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);
                 UnityMetaInput o;
